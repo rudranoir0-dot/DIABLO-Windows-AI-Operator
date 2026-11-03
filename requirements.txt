@@ -1,0 +1,8 @@
+psutil
+openai
+python-dotenv
+pyautogui
+httpx
+pypdf
+python-docx
+openpyxl

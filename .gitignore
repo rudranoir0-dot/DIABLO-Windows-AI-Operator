@@ -1,0 +1,43 @@
+.env
+venv/
+__pycache__/
+logs/
+# Secrets
+.env.*
+!.env.example
+# Python environment and cache
+.venv/
+*.py[cod]
+*.pyd
+.Python
+# Test and development cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+# Build output
+build/
+dist/
+*.egg-info/
+# Logs and temporary files
+*.log
+*.tmp
+# Backups
+*.bak
+*.bak_*
+*~
+# Windows and editor files
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+
+.env.txt
+*-before-*.py
+*_before*.py
+test_api.py
+test_gemini.py
+test_key.py
+diagnose.py
+logs/
